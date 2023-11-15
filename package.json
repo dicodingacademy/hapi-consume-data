@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-consume-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "PORT=3000 node server.js",
+    "start:order": "PORT=4000 node order-service.js",
+    "start:user": "PORT=5000 node user-service.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "got": "^11.8.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.52.0"
+  }
+}
