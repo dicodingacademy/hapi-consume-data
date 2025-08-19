@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "PORT=3000 node server.js",
     "start:order": "PORT=4000 node order-service.js",
@@ -12,8 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@hapi/hapi": "^21.3.2",
-    "got": "^11.8.6"
+    "express": "^5.1.0"
   },
   "devDependencies": {
     "eslint": "^8.52.0"

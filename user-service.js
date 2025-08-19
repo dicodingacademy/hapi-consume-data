@@ -1,6 +1,6 @@
 /* eslint-disable */
-const http = require('http');
-const url = require('url');
+import http from 'node:http';
+import url from 'node:url';
 
 const users = ['Aras', 'Arsy', 'Dimas', 'Ivan', 'Rafy', 'Gilang'];
 const MISSING = 4;
